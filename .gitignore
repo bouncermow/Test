@@ -1,35 +1,30 @@
-!Build/
-.last_cover_stats
-/META.yml
-/META.json
-/MYMETA.*
-*.o
-*.pm.tdy
-*.bs
+# Created by https://www.toptal.com/developers/gitignore/api/windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
-# Devel::Cover
-cover_db/
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Devel::NYTProf
-nytprof.out
+# Dump file
+*.stackdump
 
-# Dizt::Zilla
-/.build/
+# Folder config file
+[Dd]esktop.ini
 
-# Module::Build
-_build/
-Build
-Build.bat
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Module::Install
-inc/
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# ExtUtils::MakeMaker
-/blib/
-/_eumm/
-/*.gz
-/Makefile
-/Makefile.old
-/MANIFEST.bak
-/pm_to_blib
-/*.zip
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows
